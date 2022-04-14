@@ -2,6 +2,8 @@
     "name": "san-diego-top-spots",
     "version": "0.1.0",
     "scripts": {
+        "start": "npm run build && node server/index.js",
+        "build": "",
         "test": "mocha --exit"
     },
     "dependencies": {
